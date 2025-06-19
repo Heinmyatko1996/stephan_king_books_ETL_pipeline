@@ -84,12 +84,12 @@ python app.py
 
 ---
 
-## 📊 Optional: Visualize with Superset
+## 🛬 Airflow
 
-Once data is loaded, you can:
-1. Log into Superset at `http://localhost:8088/dash` (username: `admin`, password: `admin`)
-2. Connect to the `superset` Postgres DB
-3. Explore or create charts using the `stephen_king_books` table
+Data is already been loaded using airflow dag. See the app.py python script for invoking api and loading data into postgres table.
+Postgres database name: google_books
+schema name: public
+table name: books
 
 ---
 
