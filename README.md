@@ -79,11 +79,7 @@ python app.py
 
 ## 🧪 Example Output Table (PostgreSQL)
 
-| title                         | authors        | publisher       | published_date |
-|------------------------------|----------------|------------------|----------------|
-| The Shining                  | Stephen King   | Doubleday        | 1977-01-28     |
-| IT                           | Stephen King   | Viking           | 1986-09-15     |
-| ...                          | ...            | ...              | ...            |
+![image](https://github.com/user-attachments/assets/4994c7b8-3cdb-476b-bd0d-ec50b5035332)
 
 ---
 
