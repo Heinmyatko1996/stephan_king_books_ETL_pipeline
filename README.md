@@ -88,7 +88,9 @@ python app.py
 
 Data is already been loaded using airflow dag. See the app.py python script for invoking api and loading data into postgres table.
 Postgres database name: google_books
+
 schema name: public
+
 table name: books
 
 ---
