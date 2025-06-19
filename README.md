@@ -79,7 +79,7 @@ python app.py
 
 ## 🧪 Example Output Table (PostgreSQL)
 
-![image](https://github.com/user-attachments/assets/4994c7b8-3cdb-476b-bd0d-ec50b5035332)
+![image](https://github.com/user-attachments/assets/ac82f07e-a178-4ec4-a40b-25f9136aeccd)
 
 ---
 
