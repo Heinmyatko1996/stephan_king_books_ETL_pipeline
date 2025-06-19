@@ -9,7 +9,7 @@ This is an end-to-end ETL pipeline project that extracts data from the **Google 
 - 🐳 Docker
 - ⛓️ Docker Compose
 - 🐘 PostgreSQL
-- 🌀 Apache Airflow (optional: add to Docker setup)
+- 🌀 Apache Airflow
 - 🔍 Google Books API
 - 🐍 Python (`requests`, `json`, etc.)
 - 📊 Apache Superset (optional)
