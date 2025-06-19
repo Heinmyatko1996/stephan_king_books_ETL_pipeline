@@ -45,7 +45,7 @@ stephan_king_books_ETL_pipeline/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/stephan_king_books_ETL_pipeline.git
+git clone https://github.com/Heinmyatko1996/stephan_king_books_ETL_pipeline
 cd stephan_king_books_ETL_pipeline
 ```
 
@@ -56,9 +56,6 @@ docker-compose up --build
 ```
 
 - PostgreSQL will run in a container with DB name `superset`, user `superset`, and password `superset`.
-- Superset UI will be available at [http://localhost:8088/dash](http://localhost:8088/dash)
-
-> If Airflow is used but not yet included in the Docker Compose file, add an Airflow service (I can help with that if needed).
 
 ---
 
