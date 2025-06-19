@@ -47,12 +47,13 @@ stephan_king_books_ETL_pipeline/
 ```bash
 git clone https://github.com/Heinmyatko1996/stephan_king_books_ETL_pipeline
 cd stephan_king_books_ETL_pipeline
+source venv/bin/activate
 ```
 
 ### 2. Run the Docker Stack
 
 ```bash
-docker-compose up --build
+docker compose up -d
 ```
 
 - PostgreSQL will run in a container with DB name `superset`, user `superset`, and password `superset`.
@@ -106,7 +107,7 @@ Once data is loaded, you can:
 - Dockerized development with multiple services
 - ETL development and orchestration using Python
 - API extraction and data normalization
-- Integration between Airflow (or cron), PostgreSQL, and Superset
+- Integration between Airflow (or cron), PostgreSQL
 
 ---
 
