@@ -47,6 +47,7 @@ stephan_king_books_ETL_pipeline/
 ```bash
 git clone https://github.com/Heinmyatko1996/stephan_king_books_ETL_pipeline
 cd stephan_king_books_ETL_pipeline
+venv .venv
 source venv/bin/activate
 ```
 
