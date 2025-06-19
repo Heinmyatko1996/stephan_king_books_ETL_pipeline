@@ -56,11 +56,11 @@ source venv/bin/activate
 docker compose up -d
 ```
 
-- PostgreSQL will run in a container with DB name `superset`, user `superset`, and password `superset`.
+- PostgreSQL will run in a container with `stephan_king_books_etl_pipeline-postgres-1`.
 
 ---
 
-## 🐍 Run ETL Script Manually
+## 🐍 Run ETL Script Manually (if virtual environment is already on, there is no need to run it manually, all data will be loaded)
 
 Make sure your virtualenv is active, or install dependencies with:
 
@@ -74,7 +74,7 @@ Then run:
 python app.py
 ```
 
-> This script connects to the running Postgres container and loads data into a table (e.g., `stephen_king_books`).
+> This script connects to the running Postgres container and loads data into a table (e.g., `books`).
 
 ---
 
