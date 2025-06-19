@@ -49,6 +49,7 @@ git clone https://github.com/Heinmyatko1996/stephan_king_books_ETL_pipeline
 cd stephan_king_books_ETL_pipeline
 venv .venv
 source venv/bin/activate
+pip install -r requirements.txt
 ```
 
 ### 2. Run the Docker Stack
